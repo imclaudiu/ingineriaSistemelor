@@ -1,0 +1,113 @@
+/* body of the html page */
+body {
+    background-image: url('trainerBackground.jpg');
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; 
+
+    overflow: hidden;
+}
+
+/* title of the html page */
+h1 {
+    color:#090731;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: #090731;
+    font-size: 60px;
+    text-shadow: 3px 3px #ADD9F8;
+}
+
+/* position of the body section */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* signup box */
+.signup-form {
+    background-color: rgb(255, 255, 255, 0.7);
+    width: 45%;
+    align-items: center;
+    border-radius: 12px;
+    text-align: center;
+
+    color:#090731; 
+    text-shadow: #090731;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* signup text edting*/
+.signup {
+    font-size: 45px;
+}
+
+/* first name text editing */
+.first-name {
+    font-weight: normal;
+}
+
+/* last name text editing */
+.last-name {
+    font-weight: normal;
+}
+
+/* email text editing */
+.email {
+    font-weight: normal;
+}
+
+/* username text editing */
+.username {
+    font-weight: normal;
+}
+
+/* password text editing */
+.password {
+    font-weight: normal;
+}
+
+.confirm-password {
+    font-weight: normal;
+}
+
+/* username textbox editing */
+input[type="text"] {
+    width: 300px;
+    height: 15px;
+}
+
+/* email textbox editing */
+input[type="email"] {
+    width: 300px;
+    height: 15px;
+}
+
+/* password textbox editing */
+input[type="password"] {
+    width: 300px;
+    height: 15px;
+}
+
+/* buttons settings */
+.button {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-top:10px;
+    width: 50%;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #090731; 
+    color: white;
+}

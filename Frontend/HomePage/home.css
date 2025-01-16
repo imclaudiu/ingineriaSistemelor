@@ -1,0 +1,63 @@
+/* body of the html page */
+body {
+    background-image: url('homePage.jpg');
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; 
+    overflow: hidden;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+/* title of the html page */
+h1 {
+    color:#090731;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: #090731;
+    font-size: 60px;
+    text-shadow: 3px 3px #f56e01;
+    margin: 20px 0; /* Add space above and below the title */
+}
+
+/* position of the body section */
+.container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Allow the container to grow and take available space */
+}
+
+/* button container settings */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the buttons */
+    margin-top: 20px; /* Add space above the buttons */
+}
+
+/* buttons settings */
+.button {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-top:100px;
+    width: 100%;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; /* Center the text inside the button */
+}
+
+.button:hover {
+    background-color: #090731; 
+    color: white;
+}

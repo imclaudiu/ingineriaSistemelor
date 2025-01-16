@@ -1,0 +1,98 @@
+/* body of the html page */
+body {
+    background-image: url('sunday.jpg');
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed in place */
+    height: 100vh; 
+
+    overflow: auto;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* title of the html page */
+h1 {
+    color:#090731;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: #090731;
+    font-size: 50px;
+    text-shadow: 3px 3px #ffffff;
+    
+}
+
+/* container settings */
+.container {
+    display: flex;
+    flex-direction: wrap; /* Arrange boxes in a row */
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 20px;
+    margin-top: -25px; /* Add space above the boxes */
+    height: calc(100vh - 80px); /* Adjusts height to fit within the viewport */
+   
+  }
+
+  /* box settings */
+  .box {
+    flex: 1 1 18vw; /* Prevents boxes from shrinking */
+    width: 18vw; /* Responsive width */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .box:hover {
+    transform: scale(1.05); /* Slightly enlarge the box on hover */
+  }
+  
+  .box-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .box-title {
+    font-size: 24px; /* Set a consistent font size */
+    color: #090731;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; /* Make the font bold */
+  }
+  
+  .box-text {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold; /* Make the font bold */
+  }
+
+  .box-text {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .box-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #7ab352;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .box-link:hover {
+    background-color: #5a8b2f;
+  }
